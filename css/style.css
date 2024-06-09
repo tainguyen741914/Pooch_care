@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.Menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 55px;
+}
+.Menu h1{
+    color: #189a46;
+}
+.carousel {
+    margin-top: 81px;
+}
+.carousel-caption{
+    text-align: start;
+    color: white;
+}
+.carousel-caption h5{
+    font-size: 45px;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+.carousel-caption button{
+    padding: 12px 35px;
+    background-color: rgba(240, 248, 255, 0.089);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid  ;
+}
+.sub-title{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: rgb(218, 8, 8);
+}
+.hny-title{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.bottom-ab-left{
+    margin: 0 60px;
+}
+a.read{
+    font-size: 18px;
+    border-bottom: 2px solid #189A46;
+    color: black;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    margin-top: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.w3l-features{
+    background-color: rgba(147, 107, 232, 0.05);
+}
+.w3l-features .area-box{
+    padding: 45px 30px;
+    transition:all 0.5s ease 0s;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+.grids-feature{
+    margin-bottom: 35px;
+}
+.img_content{
+    display: flex;
+}
+.img_left{
+    padding-left: 51px;
+}
+.congai{
+    border-radius: 10px;
+    max-width: 100%;
+}
+.why_choose .content_right{
+    align-self: center;
+    padding: 0 15px;
+}
+.choose{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+.you3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.why_choose .content_right p{
+    margin: 15px 0 30px 0;
+}
+.why_choose .content_right ul li{
+    line-height: 26px;
+    color: #000c04;
+    margin: 15px 0;
+    font-weight: 600;
+    display: block;
+}
+.why_choose .content_right ul li span.fa{
+    color: #189A46;
+    margin-right: 12px;
+    background-color: rgba(147, 107, 232, 0.05);
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 50%;
+
+}
+.number {
+    padding: 50px 0;
+    background-color: #189A46;
+    color: white;
+}
+  
+  .number .number_content {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+  
+  .number .number_content p {
+    font-size: 50px;
+}
